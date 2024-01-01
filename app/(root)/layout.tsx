@@ -2,10 +2,10 @@ import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import '../globals.css'
 import { ClerkProvider } from '@clerk/nextjs'
-import TopBar from '@/components/shared/topBar'
-import LeftBar from '@/components/shared/leftBar'
-import RightBar from '@/components/shared/rightBar'
-import ButtomBar from '@/components/shared/buttomBar'
+import TopBar from '@/components/shared/TopBar'
+import LeftBar from '@/components/shared/LeftBar'
+import RightBar from '@/components/shared/RightBar'
+import ButtomBar from '@/components/shared/ButtomBar'
 
 const inter = Inter({ subsets: ['latin'] })
 
